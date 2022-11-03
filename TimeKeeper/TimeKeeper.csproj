@@ -9,12 +9,144 @@
 
   <ItemGroup>
     <None Remove="Images\back_image.jpg" />
+    <None Remove="Images\Forecast\a01d.png" />
+    <None Remove="Images\Forecast\a01n.png" />
+    <None Remove="Images\Forecast\a02d.png" />
+    <None Remove="Images\Forecast\a02n.png" />
+    <None Remove="Images\Forecast\a03d.png" />
+    <None Remove="Images\Forecast\a03n.png" />
+    <None Remove="Images\Forecast\a04d.png" />
+    <None Remove="Images\Forecast\a04n.png" />
+    <None Remove="Images\Forecast\a05d.png" />
+    <None Remove="Images\Forecast\a05n.png" />
+    <None Remove="Images\Forecast\a06d.png" />
+    <None Remove="Images\Forecast\a06n.png" />
+    <None Remove="Images\Forecast\c01d.png" />
+    <None Remove="Images\Forecast\c01n.png" />
+    <None Remove="Images\Forecast\c02d.png" />
+    <None Remove="Images\Forecast\c02n.png" />
+    <None Remove="Images\Forecast\c03d.png" />
+    <None Remove="Images\Forecast\c03n.png" />
+    <None Remove="Images\Forecast\c04d.png" />
+    <None Remove="Images\Forecast\c04n.png" />
+    <None Remove="Images\Forecast\d01d.png" />
+    <None Remove="Images\Forecast\d01n.png" />
+    <None Remove="Images\Forecast\d02d.png" />
+    <None Remove="Images\Forecast\d02n.png" />
+    <None Remove="Images\Forecast\d03d.png" />
+    <None Remove="Images\Forecast\d03n.png" />
+    <None Remove="Images\Forecast\f01d.png" />
+    <None Remove="Images\Forecast\f01n.png" />
+    <None Remove="Images\Forecast\r01d.png" />
+    <None Remove="Images\Forecast\r01n.png" />
+    <None Remove="Images\Forecast\r02d.png" />
+    <None Remove="Images\Forecast\r02n.png" />
+    <None Remove="Images\Forecast\r03d.png" />
+    <None Remove="Images\Forecast\r03n.png" />
+    <None Remove="Images\Forecast\r04d.png" />
+    <None Remove="Images\Forecast\r04n.png" />
+    <None Remove="Images\Forecast\r05d.png" />
+    <None Remove="Images\Forecast\r05n.png" />
+    <None Remove="Images\Forecast\r06d.png" />
+    <None Remove="Images\Forecast\r06n.png" />
+    <None Remove="Images\Forecast\s01d %281%29.png" />
+    <None Remove="Images\Forecast\s01d.png" />
+    <None Remove="Images\Forecast\s01n.png" />
+    <None Remove="Images\Forecast\s02d %281%29.png" />
+    <None Remove="Images\Forecast\s02d.png" />
+    <None Remove="Images\Forecast\s02n.png" />
+    <None Remove="Images\Forecast\s03d.png" />
+    <None Remove="Images\Forecast\s03n.png" />
+    <None Remove="Images\Forecast\s04d.png" />
+    <None Remove="Images\Forecast\s04n.png" />
+    <None Remove="Images\Forecast\s05d.png" />
+    <None Remove="Images\Forecast\s05n.png" />
+    <None Remove="Images\Forecast\s06d.png" />
+    <None Remove="Images\Forecast\s06n.png" />
+    <None Remove="Images\Forecast\t01d.png" />
+    <None Remove="Images\Forecast\t01n.png" />
+    <None Remove="Images\Forecast\t02d.png" />
+    <None Remove="Images\Forecast\t02n.png" />
+    <None Remove="Images\Forecast\t03d.png" />
+    <None Remove="Images\Forecast\t03n.png" />
+    <None Remove="Images\Forecast\t04d.png" />
+    <None Remove="Images\Forecast\t04n.png" />
+    <None Remove="Images\Forecast\t05d.png" />
+    <None Remove="Images\Forecast\t05n.png" />
+    <None Remove="Images\Forecast\u00d.png" />
+    <None Remove="Images\Forecast\u00n.png" />
     <None Remove="Images\key-icon.png" />
     <None Remove="Images\logo.png" />
     <None Remove="Images\user-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\Forecast\a01d.png" />
+    <Resource Include="Images\Forecast\a01n.png" />
+    <Resource Include="Images\Forecast\a02d.png" />
+    <Resource Include="Images\Forecast\a02n.png" />
+    <Resource Include="Images\Forecast\a03d.png" />
+    <Resource Include="Images\Forecast\a03n.png" />
+    <Resource Include="Images\Forecast\a04d.png" />
+    <Resource Include="Images\Forecast\a04n.png" />
+    <Resource Include="Images\Forecast\a05d.png" />
+    <Resource Include="Images\Forecast\a05n.png" />
+    <Resource Include="Images\Forecast\a06d.png" />
+    <Resource Include="Images\Forecast\a06n.png" />
+    <Resource Include="Images\Forecast\c01d.png" />
+    <Resource Include="Images\Forecast\c01n.png" />
+    <Resource Include="Images\Forecast\c02d.png" />
+    <Resource Include="Images\Forecast\c02n.png" />
+    <Resource Include="Images\Forecast\c03d.png" />
+    <Resource Include="Images\Forecast\c03n.png" />
+    <Resource Include="Images\Forecast\c04d.png" />
+    <Resource Include="Images\Forecast\c04n.png" />
+    <Resource Include="Images\Forecast\d01d.png" />
+    <Resource Include="Images\Forecast\d01n.png" />
+    <Resource Include="Images\Forecast\d02d.png" />
+    <Resource Include="Images\Forecast\d02n.png" />
+    <Resource Include="Images\Forecast\d03d.png" />
+    <Resource Include="Images\Forecast\d03n.png" />
+    <Resource Include="Images\Forecast\f01d.png" />
+    <Resource Include="Images\Forecast\f01n.png" />
+    <Resource Include="Images\Forecast\r01d.png" />
+    <Resource Include="Images\Forecast\r01n.png" />
+    <Resource Include="Images\Forecast\r02d.png" />
+    <Resource Include="Images\Forecast\r02n.png" />
+    <Resource Include="Images\Forecast\r03d.png" />
+    <Resource Include="Images\Forecast\r03n.png" />
+    <Resource Include="Images\Forecast\r04d.png" />
+    <Resource Include="Images\Forecast\r04n.png" />
+    <Resource Include="Images\Forecast\r05d.png" />
+    <Resource Include="Images\Forecast\r05n.png" />
+    <Resource Include="Images\Forecast\r06d.png" />
+    <Resource Include="Images\Forecast\r06n.png" />
+    <Resource Include="Images\Forecast\s01d (1).png" />
+    <Resource Include="Images\Forecast\s01d.png" />
+    <Resource Include="Images\Forecast\s01n.png" />
+    <Resource Include="Images\Forecast\s02d (1).png" />
+    <Resource Include="Images\Forecast\s02d.png" />
+    <Resource Include="Images\Forecast\s02n.png" />
+    <Resource Include="Images\Forecast\s03d.png" />
+    <Resource Include="Images\Forecast\s03n.png" />
+    <Resource Include="Images\Forecast\s04d.png" />
+    <Resource Include="Images\Forecast\s04n.png" />
+    <Resource Include="Images\Forecast\s05d.png" />
+    <Resource Include="Images\Forecast\s05n.png" />
+    <Resource Include="Images\Forecast\s06d.png" />
+    <Resource Include="Images\Forecast\s06n.png" />
+    <Resource Include="Images\Forecast\t01d.png" />
+    <Resource Include="Images\Forecast\t01n.png" />
+    <Resource Include="Images\Forecast\t02d.png" />
+    <Resource Include="Images\Forecast\t02n.png" />
+    <Resource Include="Images\Forecast\t03d.png" />
+    <Resource Include="Images\Forecast\t03n.png" />
+    <Resource Include="Images\Forecast\t04d.png" />
+    <Resource Include="Images\Forecast\t04n.png" />
+    <Resource Include="Images\Forecast\t05d.png" />
+    <Resource Include="Images\Forecast\t05n.png" />
+    <Resource Include="Images\Forecast\u00d.png" />
+    <Resource Include="Images\Forecast\u00n.png" />
     <Resource Include="Images\user-icon.png" />
   </ItemGroup>
 
@@ -30,6 +162,21 @@
   <ItemGroup>
     <Resource Include="Images\back_image.jpg" />
     <Resource Include="Images\key-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TimeKeeper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SavedEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SavedPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PostalCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">33062</Value>
+    </Setting>
+    <Setting Name="WeatherApiKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">f11b0de69c8948b0965a9c0970da0647</Value>
+    </Setting>
+    <Setting Name="CountryCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">pl</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

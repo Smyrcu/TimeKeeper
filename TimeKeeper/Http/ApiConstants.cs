@@ -8,6 +8,7 @@ namespace TimeKeeper.Http
 {
     public class ApiConstants
     {
+        //App API
         private string API_BASE;
         private string ACCOUNT_LOGIN;
         private string ACCOUNT_REGISTER;
@@ -19,9 +20,14 @@ namespace TimeKeeper.Http
         private string WORK_TIME_GET;
         private string WORK_TIME_EDIT;
         private string WORK_TIME_DELETE;
+        //Weather API
+        private string CONNECION;
+        private string API_KEY;
+
 
         public ApiConstants()
         {
+            //App API
             API_BASE = "https://rescheduller-api.azurewebsites.net/api";
             ACCOUNT_LOGIN = API_BASE + "/account/login";
             ACCOUNT_REGISTER = API_BASE + "/account/register";
@@ -33,6 +39,9 @@ namespace TimeKeeper.Http
             WORK_TIME_GET = API_BASE + "/work/"; // add id at the end
             WORK_TIME_EDIT = API_BASE + "/work";
             WORK_TIME_DELETE = API_BASE + "/work/"; // add id at the end
+            //Weather API
+            CONNECION = "http://api.weatherbit.io/v2.0/current?";
+            API_KEY = "f11b0de69c8948b0965a9c0970da0647";
         }
 
         public string GetApiBase() => API_BASE;
@@ -46,6 +55,7 @@ namespace TimeKeeper.Http
         public string GetWorkTimeGet(int id) => WORK_TIME_GET + id;
         public string GetWorkTimeEdit() => WORK_TIME_EDIT;
         public string GetWorkTimeDelete(int id) => WORK_TIME_DELETE + id;
+        public string GetApiConnecionString() => CONNECION;
 
     }
 }
